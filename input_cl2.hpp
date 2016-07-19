@@ -2600,7 +2600,7 @@ private:
 #endif // #if !defined(__APPLE__) && !defined(__MACOS)
 
             default_ = Context(
-                CL_DEVICE_TYPE_DEFAULT,
+                CL_DEVICE_TYPE_ALL,
                 properties,
                 NULL,
                 NULL,
